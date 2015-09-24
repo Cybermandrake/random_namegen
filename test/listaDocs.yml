@@ -1,0 +1,16 @@
+{
+    "duplicados": [
+        "./a/aaa.txt"
+    ], 
+    "em uso": [
+        "aaa", 
+        "yuyu", 
+        "aaa", 
+        "oioi", 
+        "gggg"
+    ], 
+    "reservados": [
+        "0000", 
+        "0000"
+    ]
+}
