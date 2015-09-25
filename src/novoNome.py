@@ -63,6 +63,7 @@ def main(argv=None):
     while (not nameIsGood(aStrNumber)):
         if (verbose):
             print (aStrNumber + " está em uso ou reservado")
+        aStrNumber = str(random.randrange(1000,9999))
     if (checkreserved):
         if (aStrNumber in reservados):
             print("Aviso: " + aStrNumber + " é um nome reservado.")
